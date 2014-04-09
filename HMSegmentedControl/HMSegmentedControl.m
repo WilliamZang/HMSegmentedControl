@@ -127,6 +127,7 @@
     self.scrollView = [[HMScrollView alloc] init];
     self.scrollView.showsVerticalScrollIndicator = NO;
     self.scrollView.showsHorizontalScrollIndicator = NO;
+    self.scrollView.scollsToTop = NO;
     [self addSubview:self.scrollView];
     
     self.font = [UIFont fontWithName:@"STHeitiSC-Light" size:18.0f];
